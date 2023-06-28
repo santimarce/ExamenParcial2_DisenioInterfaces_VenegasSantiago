@@ -1,0 +1,20 @@
+
+/* Header */
+
+/* Carrusel */
+#contenedorCarrusel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    width: 100%;
+  }
+  .carousel-image {
+    max-height: 300px;
+    width: auto;
+  }
+
+/* Body */
+
+/* Cards */
