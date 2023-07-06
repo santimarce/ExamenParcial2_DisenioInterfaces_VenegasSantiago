@@ -118,3 +118,91 @@ footer{
   text-decoration: none;
   color: rgb(138, 130, 130);
 }
+
+/* Pagina Contacto */
+/* Contactanos */
+#card-contacto{
+  border-width: 5px;
+  box-shadow:  inset 0 -1em 4em black;
+  border-color: rgb(0, 0, 0);
+  border-radius: 5%;
+  background-color:rgb(228, 93, 255) ;
+  align-items: center;
+  padding: 10px;
+}
+#titulo-contacto{
+  text-align: center;
+  text-transform: uppercase;
+  color: black;    
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-img-top-contact{
+  width: 150px;
+  height: 150px;
+}
+#googlemap{
+  height: 400px;
+  width: 530px;
+}
+.tituloctc-final{
+  text-align: center;
+  text-transform: uppercase;
+}
+.areatexto{
+  height: 200px;
+  width: 424px;
+}
+
+/* Pagina Nosotros */
+.esteban1{
+  width: auto;
+  max-width: 1390px;
+  margin: auto;
+  display: flex;
+  grid-template-columns: 900px 400px;
+  grid-gap: 50px;
+  margin-top: 20px;
+}
+
+/* Login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  color: wheat;
+  background-color: black;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #666;
+}
